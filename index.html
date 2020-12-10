@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/p5.play.js"></script>
+    <script src="libraries/matter.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-database.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+    <title>World Runner</title>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: 'AIzaSyCu5AjwQ-tfv_sKroiBN4mlmMCtWb5oXgA',
+        authDomain: 'advanced-trex-game-1.firebaseapp.com',
+        databaseURL: 'https://advanced-trex-game-1.firebaseio.com',
+        projectId: 'advanced-trex-game-1',
+        storageBucket: 'advanced-trex-game-1.appspot.com',
+        messagingSenderId: '869261029098',
+        appId: '1:869261029098:web:23c937e8feafa5b8327193',
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+    <script src="/js/Start.js"></script>
+    <script src="Classes/Cloud.js"></script>
+    <script src="Classes/ground.js"></script>
+    <script src="Classes/Coin.js"></script>
+    <script src="Classes/obstacles.js"></script>
+    <script src="Classes/Platform.js"></script>
+    <script src="Classes/Player.js"></script>
+
+    <!-- <div class="nextGame">
+      <a href="drawingApp.html"
+        ><img src="images/arrowNext.png" width="150" height="70"
+      /></a>
+    </div> -->
+  </body>
+</html>
