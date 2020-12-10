@@ -349,10 +349,6 @@ function draw() {
 
   player.player.collide(invisibleGround);
 
-  for (var z = 0; z < platArray.length; z++) {
-    player.player.collide(platArray[i]);
-  }
-
   player.display();
   ground.display();
 }
@@ -456,7 +452,7 @@ async function getTimeBackground() {
   var datetime = timeJSON.datetime;
   var hour = datetime.slice(11, 13);
 
-  if (hour >= 06 || hour <= 19) {
+  if (hour >= 19 || hour <= 06) {
     bgImg = 'images/sky.jpg';
   } else {
     bgImg = 'images/nightSky2.jpg';
