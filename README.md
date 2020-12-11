@@ -36,3 +36,15 @@ Feel free to contribute and improve this small game!
 ( PPS: If you do dare look into the secrets... 
 <br>
 you may find, um, find a mess of code!)
+
+
+# How To Run - 
+<pre>
+1) Download the files.
+<br>
+2) Unzip the files.
+<br>
+3) Use any web server to locally host the files.
+<br>
+4) Enjoy!
+</pre>
