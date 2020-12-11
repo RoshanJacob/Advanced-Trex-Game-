@@ -35,7 +35,7 @@ Feel free to contribute and improve this small game!
 
 ( PPS: If you do dare look into the secrets... 
 <br>
-you may find, um, find a mess of code!)
+you may find, errr, you may find a mess of code!)
 
 
 # How To Run - 
