@@ -31,11 +31,11 @@ Then, as is inevitible, every hero has an end.
 
 Feel free to contribute and improve this small game!
 
-( PS: You are not allowed to look into the mysteries of the game! Because it has to... um, it has to stay a mystery!)
+( PS: You are not allowed to look into the mysteries of the game! Because it has to... it has to stay a mystery!)
 
 ( PPS: If you do dare look into the secrets... 
 <br>
-you may find, errr, you may find a mess of code!)
+you may find, errr, you may find, well, code which can refactored, to say for the best.)
 
 
 # How To Run - 
